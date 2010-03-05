@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="16" tileheight="16">
+ <tileset name="mario01" firstgid="1" tilewidth="16" tileheight="16" spacing="2" margin="2">
+  <image source="../../../mario_tileset01.png"/>
+ </tileset>
+ <tileset name="mario01" firstgid="86" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="../../../mario_tileset01.png"/>
+ </tileset>
+ <tileset name="mario03" firstgid="194" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="../../../mario_tileset01.png" trans="ff678b"/>
+ </tileset>
+ <tileset name="mario04" firstgid="302" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="../../../mario_tileset01.png" trans="ffffff"/>
+ </tileset>
+ <tileset name="myTileset" firstgid="410" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="../../../mario_tileset01.png" trans="ffffff"/>
+ </tileset>
+ <layer name="Layer 0" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SvQrCMBiF4fSGxE0UB8HJwVEQFHFwNYiokyCI+Dc6eQEuvQ5vzBOSQhAdRLC0vg8cvn6depoYAwAAAAAAgE9Vkry/AHn453NvqnurRP3r6jLQHCojpW/8XnvRsaF31RL1d90XmlPFKjNlF/ZO1NHd97tmV7Ot2AL2dx3c2cZZKntlo1yUrfH93R73X4XOtsD93Z0da86Nny4H5Wp851uYaZjv+vcK3t91y/7BOvF7ljR6jvtPov62oP2P+ubTU85fBAAAAAAAAAAAAAAAAADwGw9LbZGEAEAAAA==
+  </data>
+ </layer>
+ <layer name="collision" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+  </data>
+ </layer>
+</map>
