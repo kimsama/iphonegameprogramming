@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TileMapTest02' target in the 'TileMapTest02' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
