@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* cocos2d_appAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* cocos2d_appAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		32FBB5A5108864370011C0B9 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FBB5A4108864370011C0B9 /* fps_images.png */; };
+		32FBB5B71088647D0011C0B9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FBB5B61088647D0011C0B9 /* background.png */; };
+		32FBB61E108C5E730011C0B9 /* MainGameClickCard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32FBB61C108C5E730011C0B9 /* MainGameClickCard.wav */; };
+		32FBB61F108C5E730011C0B9 /* MainGameGetCard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32FBB61D108C5E730011C0B9 /* MainGameGetCard.wav */; };
+		496B814C1013459100BD4235 /* Card.png in Resources */ = {isa = PBXBuildFile; fileRef = 496B814B1013459100BD4235 /* Card.png */; };
+		496EAD371009BA5A000DED0F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496EAD361009BA5A000DED0F /* OpenGLES.framework */; };
+		496EAD391009BA5A000DED0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496EAD381009BA5A000DED0F /* QuartzCore.framework */; };
+		496EB1C6100F5C40000DED0F /* GostopAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EB1BF100F5C40000DED0F /* GostopAgent.m */; };
+		496EB1C7100F5C40000DED0F /* GostopCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EB1C1100F5C40000DED0F /* GostopCard.m */; };
+		496EB1C8100F5C40000DED0F /* GostopFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EB1C4100F5C40000DED0F /* GostopFloor.m */; };
+		499251B01017568C00AE374B /* editcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 499251AF1017568C00AE374B /* editcard.png */; };
+		499C98A810592D8B0007AC07 /* MainGameMatchCard1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499C98A410592D8B0007AC07 /* MainGameMatchCard1.wav */; };
+		499C98A910592D8B0007AC07 /* MainGameMatchCard2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499C98A510592D8B0007AC07 /* MainGameMatchCard2.wav */; };
+		499C98AA10592D8B0007AC07 /* MainGameMatchCard3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499C98A610592D8B0007AC07 /* MainGameMatchCard3.wav */; };
+		499C98AB10592D8B0007AC07 /* MainGameMatchCard4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499C98A710592D8B0007AC07 /* MainGameMatchCard4.wav */; };
+		499C98AD10592E180007AC07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499C98AC10592E180007AC07 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* cocos2d_appAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2d_appAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* cocos2d_appAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocos2d_appAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* cocos2d app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocos2d app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* cocos2d_app_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2d_app_Prefix.pch; sourceTree = "<group>"; };
+		32FBB5A4108864370011C0B9 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = image/fps_images.png; sourceTree = "<group>"; };
+		32FBB5B61088647D0011C0B9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = image/background.png; sourceTree = "<group>"; };
+		32FBB61C108C5E730011C0B9 /* MainGameClickCard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameClickCard.wav; path = sound/MainGameClickCard.wav; sourceTree = "<group>"; };
+		32FBB61D108C5E730011C0B9 /* MainGameGetCard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameGetCard.wav; path = sound/MainGameGetCard.wav; sourceTree = "<group>"; };
+		496B814B1013459100BD4235 /* Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card.png; sourceTree = "<group>"; };
+		496EAD361009BA5A000DED0F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		496EAD381009BA5A000DED0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		496EB1BF100F5C40000DED0F /* GostopAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GostopAgent.m; sourceTree = "<group>"; };
+		496EB1C0100F5C40000DED0F /* GostopAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GostopAgent.h; sourceTree = "<group>"; };
+		496EB1C1100F5C40000DED0F /* GostopCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GostopCard.m; sourceTree = "<group>"; };
+		496EB1C2100F5C40000DED0F /* GostopCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GostopCard.h; sourceTree = "<group>"; };
+		496EB1C3100F5C40000DED0F /* GostopCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GostopCommon.h; sourceTree = "<group>"; };
+		496EB1C4100F5C40000DED0F /* GostopFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GostopFloor.m; sourceTree = "<group>"; };
+		496EB1C5100F5C40000DED0F /* GostopFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GostopFloor.h; sourceTree = "<group>"; };
+		499251AF1017568C00AE374B /* editcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editcard.png; sourceTree = "<group>"; };
+		499C98A410592D8B0007AC07 /* MainGameMatchCard1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameMatchCard1.wav; path = sound/MainGameMatchCard1.wav; sourceTree = "<group>"; };
+		499C98A510592D8B0007AC07 /* MainGameMatchCard2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameMatchCard2.wav; path = sound/MainGameMatchCard2.wav; sourceTree = "<group>"; };
+		499C98A610592D8B0007AC07 /* MainGameMatchCard3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameMatchCard3.wav; path = sound/MainGameMatchCard3.wav; sourceTree = "<group>"; };
+		499C98A710592D8B0007AC07 /* MainGameMatchCard4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MainGameMatchCard4.wav; path = sound/MainGameMatchCard4.wav; sourceTree = "<group>"; };
+		499C98AC10592E180007AC07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* cocos2d_app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cocos2d_app-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				496EAD371009BA5A000DED0F /* OpenGLES.framework in Frameworks */,
+				496EAD391009BA5A000DED0F /* QuartzCore.framework in Frameworks */,
+				499C98AD10592E180007AC07 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				496EB1BF100F5C40000DED0F /* GostopAgent.m */,
+				496EB1C0100F5C40000DED0F /* GostopAgent.h */,
+				496EB1C1100F5C40000DED0F /* GostopCard.m */,
+				496EB1C2100F5C40000DED0F /* GostopCard.h */,
+				496EB1C3100F5C40000DED0F /* GostopCommon.h */,
+				496EB1C4100F5C40000DED0F /* GostopFloor.m */,
+				496EB1C5100F5C40000DED0F /* GostopFloor.h */,
+				1D3623240D0F684500981E51 /* cocos2d_appAppDelegate.h */,
+				1D3623250D0F684500981E51 /* cocos2d_appAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* cocos2d app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				496EAD361009BA5A000DED0F /* OpenGLES.framework */,
+				496EAD381009BA5A000DED0F /* QuartzCore.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* cocos2d_app_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				499C98A310592D730007AC07 /* sound */,
+				496EB0EB100E0396000DED0F /* image */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* cocos2d_app-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499C98AC10592E180007AC07 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496EB0EB100E0396000DED0F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				32FBB5B61088647D0011C0B9 /* background.png */,
+				32FBB5A4108864370011C0B9 /* fps_images.png */,
+				499251AF1017568C00AE374B /* editcard.png */,
+				496B814B1013459100BD4235 /* Card.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		499C98A310592D730007AC07 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				32FBB61C108C5E730011C0B9 /* MainGameClickCard.wav */,
+				32FBB61D108C5E730011C0B9 /* MainGameGetCard.wav */,
+				499C98A410592D8B0007AC07 /* MainGameMatchCard1.wav */,
+				499C98A510592D8B0007AC07 /* MainGameMatchCard2.wav */,
+				499C98A610592D8B0007AC07 /* MainGameMatchCard3.wav */,
+				499C98A710592D8B0007AC07 /* MainGameMatchCard4.wav */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* gostop2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "gostop2" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gostop2;
+			productName = "cocos2d app";
+			productReference = 1D6058910D05DD3D006BFB54 /* cocos2d app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "gostop2" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* gostop2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				496B814C1013459100BD4235 /* Card.png in Resources */,
+				499251B01017568C00AE374B /* editcard.png in Resources */,
+				499C98A810592D8B0007AC07 /* MainGameMatchCard1.wav in Resources */,
+				499C98A910592D8B0007AC07 /* MainGameMatchCard2.wav in Resources */,
+				499C98AA10592D8B0007AC07 /* MainGameMatchCard3.wav in Resources */,
+				499C98AB10592D8B0007AC07 /* MainGameMatchCard4.wav in Resources */,
+				32FBB5A5108864370011C0B9 /* fps_images.png in Resources */,
+				32FBB5B71088647D0011C0B9 /* background.png in Resources */,
+				32FBB61E108C5E730011C0B9 /* MainGameClickCard.wav in Resources */,
+				32FBB61F108C5E730011C0B9 /* MainGameGetCard.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* cocos2d_appAppDelegate.m in Sources */,
+				496EB1C6100F5C40000DED0F /* GostopAgent.m in Sources */,
+				496EB1C7100F5C40000DED0F /* GostopCard.m in Sources */,
+				496EB1C8100F5C40000DED0F /* GostopFloor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cocos2d_app_Prefix.pch;
+				INFOPLIST_FILE = "cocos2d_app-Info.plist";
+				PRODUCT_NAME = "cocos2d app";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cocos2d_app_Prefix.pch;
+				INFOPLIST_FILE = "cocos2d_app-Info.plist";
+				PRODUCT_NAME = "cocos2d app";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hyoun Woo Kim";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "./cocos2d/Include//**";
+				LIBRARY_SEARCH_PATHS = "./cocos2d/Simulator/libcocos2d.a/**";
+				OTHER_LDFLAGS = (
+					./cocos2d/Simulator/libcocos2d.a,
+					"-Icocos2d",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B211B059-B8F8-4F52-A006-F8E6656DE4B6";
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hyoun Woo Kim";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "./cocos2d/Include/**";
+				LIBRARY_SEARCH_PATHS = "./cocos2d/Device/libcocos2d.a/**";
+				OTHER_LDFLAGS = ./cocos2d/Device/libcocos2d.a;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "gostop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "gostop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
