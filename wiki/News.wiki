@@ -1,4 +1,4 @@
-#summary 새로운 소식
+#summary 새로운 소식들
 
 = iPhone Game Programming 실습편 =
 
