@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary 새로운 소식
 
 = iPhone Game Programming 실습편 =
 
