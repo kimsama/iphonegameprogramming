@@ -131,7 +131,6 @@
 		320F2F660FE8D8D500172F9F /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 320F2F650FE8D8D500172F9F /* fps_images.png */; };
 		320F2F680FE8D99300172F9F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2F670FE8D99300172F9F /* OpenGLES.framework */; };
 		320F2F6C0FE8D99900172F9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2F6B0FE8D99900172F9F /* QuartzCore.framework */; };
-		320F30140FE8F90700172F9F /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 320F30130FE8F90700172F9F /* game.png */; };
 		325CBBED10355BB700C1BDF5 /* ActorSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 325CBBEC10355BB700C1BDF5 /* ActorSprite.m */; };
 		325CBC4F103AB51A00C1BDF5 /* atlasAnimationXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 325CBC4E103AB51A00C1BDF5 /* atlasAnimationXmlParser.m */; };
 		326ED3B8100CA37F0034AE57 /* resourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ED3B7100CA37F0034AE57 /* resourceManager.m */; };
@@ -142,7 +141,6 @@
 		3283B3A8109E6C0E00893C1C /* kill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3283B3A5109E6C0E00893C1C /* kill.wav */; };
 		3283B3A9109E6C0E00893C1C /* walk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3283B3A6109E6C0E00893C1C /* walk.wav */; };
 		3283B3D8109E6CF200893C1C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3283B3D7109E6CF200893C1C /* AudioToolbox.framework */; };
-		32D45A371040FEE500BB824D /* naruto02.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D45A361040FEE500BB824D /* naruto02.png */; };
 		32D45A441040FFE300BB824D /* testanimation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 32D45A431040FFE300BB824D /* testanimation.xml */; };
 		32EA51191092AD0D00C3111F /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 32EA51181092AD0D00C3111F /* game.c */; };
 		32EA51341092AFEC00C3111F /* STAGE.DAT in Resources */ = {isa = PBXBuildFile; fileRef = 32EA51331092AFEC00C3111F /* STAGE.DAT */; };
@@ -404,7 +402,6 @@
 		320F2F650FE8D8D500172F9F /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		320F2F670FE8D99300172F9F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		320F2F6B0FE8D99900172F9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		320F30130FE8F90700172F9F /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
 		325CBBEB10355BB700C1BDF5 /* ActorSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorSprite.h; sourceTree = "<group>"; };
 		325CBBEC10355BB700C1BDF5 /* ActorSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorSprite.m; sourceTree = "<group>"; };
 		325CBC4D103AB51A00C1BDF5 /* atlasAnimationXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atlasAnimationXmlParser.h; sourceTree = "<group>"; };
@@ -422,7 +419,6 @@
 		3283B3A6109E6C0E00893C1C /* walk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = walk.wav; path = assets/walk.wav; sourceTree = "<group>"; };
 		3283B3D7109E6CF200893C1C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* kriel_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kriel_Prefix.pch; sourceTree = "<group>"; };
-		32D45A361040FEE500BB824D /* naruto02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = naruto02.png; path = assets/naruto02.png; sourceTree = "<group>"; };
 		32D45A431040FFE300BB824D /* testanimation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = testanimation.xml; path = assets/testanimation.xml; sourceTree = "<group>"; };
 		32EA51171092AD0D00C3111F /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
 		32EA51181092AD0D00C3111F /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
@@ -528,12 +524,10 @@
 				32EA5690109678AB00C3111F /* r2.png */,
 				32EA51331092AFEC00C3111F /* STAGE.DAT */,
 				32D45A431040FFE300BB824D /* testanimation.xml */,
-				32D45A361040FEE500BB824D /* naruto02.png */,
 				32FDAEA310355A0200E51647 /* kriel_spr04.png */,
 				32FE8BA00FFA07D8006CA501 /* menu.png */,
 				32FE8B320FFA0393006CA501 /* kriel_spr.xml */,
 				32FE8B300FFA0388006CA501 /* kriel_spr01.png */,
-				320F30130FE8F90700172F9F /* game.png */,
 				320F2F650FE8D8D500172F9F /* fps_images.png */,
 				8D1107310486CEB800E47090 /* kriel-Info.plist */,
 			);
@@ -1003,12 +997,10 @@
 				320F2E640FE8D55A00172F9F /* README.txt in Resources */,
 				320F2E660FE8D55A00172F9F /* CMakeLists.txt in Resources */,
 				320F2F660FE8D8D500172F9F /* fps_images.png in Resources */,
-				320F30140FE8F90700172F9F /* game.png in Resources */,
 				32FE8B310FFA0388006CA501 /* kriel_spr01.png in Resources */,
 				32FE8B330FFA0393006CA501 /* kriel_spr.xml in Resources */,
 				32FE8BA10FFA07D8006CA501 /* menu.png in Resources */,
 				32FDAEA410355A0200E51647 /* kriel_spr04.png in Resources */,
-				32D45A371040FEE500BB824D /* naruto02.png in Resources */,
 				32D45A441040FFE300BB824D /* testanimation.xml in Resources */,
 				32EA51341092AFEC00C3111F /* STAGE.DAT in Resources */,
 				32EA5691109678AB00C3111F /* r1.png in Resources */,
